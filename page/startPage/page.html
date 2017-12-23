@@ -1,0 +1,53 @@
+﻿<div data-role="page" id="startPage" class="frame-full" data-position="fixed">
+    <!-- Main Content -->
+    <div data-role="content" style="text-align:center;">
+        <div>
+            <div class="titleLogoImg"></div>
+            <div class="titleLogoText"></div>
+        </div>
+
+        <div id="logindiv" class="logindiv">
+            <div id="loginlogo"></div>
+            <div id="loginInfo">
+                <div class="loginInfodiv">
+                    <div class="loginInfoLable">用户名</div>
+                    <input id="un" type="text" name="user" value="" placeholder="请输入用户名" data-clear-btn="true">
+                </div>
+                <div class="loginInfodiv1">
+                    <div class="loginInfoLable1">密码</div>
+                    <form onsubmit="return false;"><input id="pw" type="password" name="pass" value="" placeholder="请输入密码" data-clear-btn="true"></form>
+                </div>
+                <div id="btn_submit" class="btn_submit pageBackGround-btn ui-btn ui-corner-all">登录</div>
+
+            </div>
+
+            <div id="loginUerTowBtn" class="loginUerTowBtn">
+                <div id="svn_status" class="svn-status"></div>
+                <div id="managerlogin" class="choiceStyle pageBackGround-btn ui-btn">大堂经理</div>
+                <div id="userlogin" class="choiceStyle pageBackGround-btn ui-btn">普通用户</div>
+            </div>
+            <div id="backTowButton" class="page-title pageBackGround-btn ui-btn"><&nbsp;返回</div>
+            <div id="btn_appset" class="StartsetConfig pageBackGround-btn ui-btn">
+                <div class="btn_appset"></div>
+                <div class="btn_appset_text">设置</div>
+                <!--<label id="lable_time"></label> -->
+            </div>
+            <div id="StartTime" class="StartTime">
+                <!--倒计时 -->
+                <span id="loading">正在连接服务器...</span>
+                <span id="anginloading">连接服务器失败，<span id="time">6</span>秒后重新连接</span>
+            </div>
+        </div>
+
+        <div class="bigLogo"></div>
+
+        <div class="copyright">
+            <div class="copyright1">汇三江水&nbsp;&nbsp;理万家财</div>
+            <div class="copyright2">©2013-2015 Agree Technology Development Co.,Ltd. All rights reserved. </div>
+            <div id="version" class="copyright2"></div>
+        </div>
+
+    </div>
+    <!-- /Main Content -->
+</div>
+
